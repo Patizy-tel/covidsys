@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import { Provider } from "react-redux";
-import store from "./utils/helpers/store"; 
+import store from "./utils/helpers/store";     
 import Login from "./app/components/Auth/Login";
 import PrivateRoute from "./private/privateRoute";
 
